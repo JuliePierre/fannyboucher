@@ -1,17 +1,27 @@
 #home {
-  background-color: #D23333;
-  color: white;
+  background-color: $b-green;
+  color: $b-dark-blue;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
   p {
-    margin-top: 1.5em;
+    font-size: 35px;
+    line-height: 42px;
+    margin: 0;
+    font-weight: lighter;
+    letter-spacing: 0.035em;
   }
   a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 35px;
+    line-height: 42px;
+    margin: 0;
+    color: black;
+    text-decoration: underline $b-blue;
+    letter-spacing: 0.035em;
   }
+}
+.underlined {
+  text-decoration: underline $b-blue;
 }
